@@ -10,7 +10,7 @@ namespace Atividade02.Entities
     {
         public double ValorA { get; set; }
         public double ValorB { get; set; }
-        public double Result { get; set; }
+        private double Result { get; set; }
 
         public Calculo()
         {

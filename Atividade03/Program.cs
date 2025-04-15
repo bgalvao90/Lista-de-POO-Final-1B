@@ -44,9 +44,10 @@ internal class Program
 
                 func.ExibirDados();
 
-                Console.Write("Digite (f) ou (g) para cadastrar um novo funcionario / gerente (s) para sair.");
+                Console.Write("Digite (f) ou (g) para cadastrar um novo funcionario / gerente ou (s) para sair.");
                 funcao = char.Parse(Console.ReadLine());
             }
+
 
             else
             {
